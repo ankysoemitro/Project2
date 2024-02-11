@@ -121,7 +121,7 @@ To help sellers set the right prices, we found that where a home is located matt
 
 
 See the full analysis in the <a href="https://github.com/ankysoemitro/Project2/blob/main/EDA_Notebook.ipynb">Jupyter Notebook</a> or review this 
-<a href="C:\Users\ankys\Project_MovieAnalysis\Project1_MovieAnalysis\Microsoft_Movie_Analysis_Presentation.pdf">presentation</a>.
+<a href="https://github.com/ankysoemitro/Project2/blob/main/House_Presentation.pdf">presentation</a>.
 
 
 # Repository Structure
