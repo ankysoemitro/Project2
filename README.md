@@ -32,7 +32,7 @@ This analytical approach seeks to enhance the precision of pricing strategies, e
 
 The dataset used in this project was sourced from 'House Sales in King County, USA' given in the beginning of the project. The dataset encompasses key variables that play a pivotal role in determining property values. The description of columns in the dataset is shown below:
 
-![data_desc.png](data_desc.png)
+![data_desc.png](https://github.com/ankysoemitro/Project2/blob/main/images/data_desc.png)
 
 The decision to exclude certain columns, namely 'id,' 'date,' 'sqft_above,' 'sqft_basement,' 'yr_renovated,' 'lat,' 'long,' 'sqft_living15,' and 'sqft_lot15,' from the predictive model was made with careful consideration of their relevance and redundancy to the task of predicting house prices.
 
@@ -46,7 +46,7 @@ For every data analytics process, it's essential to preprocess and prepare the d
 
 The initial stage of the exploration involves creating scatterplot to visualize and identify categorical and continuous variables.
 
-![cat_cont.png](cat_cont.png)
+![cat_cont.png](https://github.com/ankysoemitro/Project2/blob/main/images/cat_cont.png)
 
 Scatterplot shown that bedrooms, bathrooms, sqft_living, sqft_lot appear to be continuous while floors, waterfront, condition, grade, yr_built and zipcode appear to be categorical. It also appears that bathroom and sqft_living have more positive relationship to the price.
 
@@ -54,17 +54,17 @@ Scatterplot shown that bedrooms, bathrooms, sqft_living, sqft_lot appear to be c
 
 There are 3 significant factors positively correlated with price: sqft_living, grade and bathrooms. A positive correlation implies that as a particular feature or variable increases, the house prices also tend to rise. For instance, we observe that the highest positive correlation is between square footage and house prices, it suggests that larger living spaces are associated with higher property values.
 
-![correlation.png](correlation.png)
+![correlation.png](https://github.com/ankysoemitro/Project2/blob/main/images/correlation.png)
 
 ### Effect of Zipcode on Average Property Price
 
 The top 3 highest average property price are within the zipcode of 98039, 98004, 98040.
 
-![avg_price.png](avg_price.png)
+![avg_price.png](https://github.com/ankysoemitro/Project2/blob/main/images/avg_price.png)
 
 Upon further analysis, it has become evident that houses with comparable features exhibit variations in pricing across 3 zipcodes with the highest average price. Despite the similarities in key property attributes, such as bedrooms, bathrooms, and square footage, distinct pricing patterns emerge when considering the geographic location represented by zip codes. This nuanced insight underscores the influence of regional factors on housing prices, suggesting that location plays a pivotal role in shaping the market dynamics and influencing property valuations.
 
-![features_by_zipcode.png](features_by_zipcode.png)
+![features_by_zipcode.png](https://github.com/ankysoemitro/Project2/blob/main/images/features_by_zipcode.png)
 
 House price value also increases when the number of bathrooms and floors increases with addition of waterfront as evident in the row number 7.
 
@@ -72,9 +72,9 @@ House price value also increases when the number of bathrooms and floors increas
 
 In our predictive model, we utilized a set of key features to estimate the price of a specific property. For a residence characterized by 7 bedrooms, 6 bathrooms, 9,500 square feet of living space, a 6,000 square feet lot, 2 floors, waterfront view, excellent condition (condition 5), a grade of 8, built in 2014, and situated in the 98004 zip code, our model generated a predicted price of US$2,607,762.39. This output is derived from the intricate relationships learned during the model training phase, which considered a myriad of factors influencing housing prices.
 
-![price_predict.png](price_predict.png)
+![price_predict.png](https://github.com/ankysoemitro/Project2/blob/main/images/price_predict.png)
 
-![predicted_price.png](predicted_price.png)
+![predicted_price.png](https://github.com/ankysoemitro/Project2/blob/main/images/predicted_price.png)
 
 ## Evaluation
 
