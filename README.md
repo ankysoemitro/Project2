@@ -1,4 +1,4 @@
-![Header.jpg](Header.jpg)
+![Header.jpg](https://github.com/ankysoemitro/Project2/blob/main/images/Header.jpg)
 
 # House Price Prediction using Multiple Regression Analysis
 
